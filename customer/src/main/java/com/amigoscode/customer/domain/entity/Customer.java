@@ -9,7 +9,7 @@ import org.springframework.data.relational.core.mapping.Table;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-@Table("customer")
+@Table("public.customer")
 public class Customer {
 
     @Id // Marks this field as the primary key
